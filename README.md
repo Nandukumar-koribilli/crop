@@ -37,10 +37,9 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/crop-main.git
-    cd crop-main
+    git clone https://github.com/Nandukumar-koribilli/blander.git
+    cd blander/crop
     ```
-    *(Replace `your-username` with the actual repository owner's username)*
 
 2.  **Install dependencies:**
     ```bash
@@ -49,14 +48,35 @@ Follow these instructions to get a copy of the project up and running on your lo
     yarn install
     ```
 
-3.  **Run the development server:**
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
+3.  **Run the frontend development server:**
+        ```bash
+        npm run dev
+        # or
+        yarn dev
+        ```
 
-    The application will be available at `http://localhost:3000`.
+        Vite's dev server typically opens at `http://localhost:5173` (not `3000`). If you see a different port in your terminal, open that URL.
+
+4. **Run the backend (FastAPI)** — optional, required for authentication and server-side endpoints:
+
+        - Create a virtual environment and install dependencies (recommended):
+            ```bash
+            python -m venv .venv
+            source .venv/bin/activate
+            pip install fastapi uvicorn pymongo passlib[bcrypt] python-multipart email-validator
+            ```
+
+        - Set the MongoDB connection string in an environment variable (example):
+            ```bash
+            export MONGODB_URI="mongodb+srv://<user>:<password>@cluster0.mongodb.net/?retryWrites=true&w=majority"
+            ```
+
+        - Run the backend FastAPI server from the `crop/` folder:
+            ```bash
+            uvicorn backend:app --reload --port 8000
+            ```
+
+        - The backend will be available at `http://localhost:8000` and the OpenAPI docs at `http://localhost:8000/docs`.
 
 ## 📂 Project Structure
 

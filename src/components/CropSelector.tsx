@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Search, Filter, Leaf, Apple, Wheat, Bean } from 'lucide-react';
-import { CropType } from '../types';
 import { cropDatabase } from '../data/crops';
 
 interface CropSelectorProps {

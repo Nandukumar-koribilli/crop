@@ -8,6 +8,7 @@ export interface CropType {
   maxTemp: number;
   waterRequirement: 'low' | 'medium' | 'high';
   growthDays: number;
+  avgYield?: number; // optional: average yield in tons per hectare
   marketPrice: number; // per kg
   image: string;
 }

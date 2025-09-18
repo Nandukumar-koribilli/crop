@@ -12,6 +12,7 @@ export const cropDatabase: CropType[] = [
     maxTemp: 25,
     waterRequirement: 'medium',
     growthDays: 180,
+    avgYield: 20,
     marketPrice: 80,
     image: 'https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
@@ -38,6 +39,7 @@ export const cropDatabase: CropType[] = [
     maxTemp: 35,
     waterRequirement: 'medium',
     growthDays: 120,
+    avgYield: 8,
     marketPrice: 60,
     image: 'https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
@@ -116,6 +118,7 @@ export const cropDatabase: CropType[] = [
     maxTemp: 35,
     waterRequirement: 'high',
     growthDays: 90,
+    avgYield: 25,
     marketPrice: 20,
     image: 'https://images.pexels.com/photos/1313267/pexels-photo-1313267.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
@@ -156,7 +159,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 365,
     marketPrice: 30,
-    image: 'https://images.pexels.com/photos/594575/pexels-photo-594575.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'lychee',
@@ -182,7 +185,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'low',
     growthDays: 200,
     marketPrice: 200,
-    image: 'https://images.pexels.com/photos/594575/pexels-photo-594575.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://images.pexels.com/photos/1306559/pexels-photo-1306559.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'muskmelon',
@@ -195,7 +198,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'high',
     growthDays: 80,
     marketPrice: 40,
-    image: 'https://images.pexels.com/photos/594575/pexels-photo-594575.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://images.pexels.com/photos/1313267/pexels-photo-1313267.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   // Vegetables
   {
@@ -221,6 +224,7 @@ export const cropDatabase: CropType[] = [
     maxTemp: 29,
     waterRequirement: 'medium',
     growthDays: 90,
+    avgYield: 60,
     marketPrice: 30,
     image: 'https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
@@ -248,7 +252,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 80,
     marketPrice: 40,
-    image: 'https://images.pexels.com/photos/1306559/pexels-photo-1306559.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://images.pexels.com/photos/1108199/pexels-photo-1108199.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'brinjal',
@@ -352,7 +356,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 45,
     marketPrice: 20,
-    image: 'https://images.pexels.com/photos/1306559/pexels-photo-1306559.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://images.pexels.com/photos/1108199/pexels-photo-1108199.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'beetroot',
@@ -391,7 +395,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 100,
     marketPrice: 20,
-    image: 'https://images.pexels.com/photos/1306559/pexels-photo-1306559.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://images.pexels.com/photos/1108199/pexels-photo-1108199.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   // Grains
   {
@@ -404,6 +408,7 @@ export const cropDatabase: CropType[] = [
     maxTemp: 25,
     waterRequirement: 'medium',
     growthDays: 120,
+    avgYield: 3.2,
     marketPrice: 22,
     image: 'https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?auto=compress&cs=tinysrgb&w=800'
   },

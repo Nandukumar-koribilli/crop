@@ -34,8 +34,20 @@ export const CropPredictionResult: React.FC<CropPredictionResultProps> = ({
   const survivalStatus = getSurvivalStatus(prediction.survival);
   const StatusIcon = survivalStatus.icon;
   const totalProduction = prediction.expectedYield * landArea;
-  const totalRevenue = totalProduction * selectedCrop.marketPrice;
-  const estimatedCost = landArea * 25000; // ₹25,000 per hectare average cost
+  // expectedYield is in tons/hectare, convert to kg
+  const totalProductionTons = prediction.expectedYield * landArea; // tons
+  const totalProductionKg = totalProductionTons * 1000; // kg
+  const totalRevenue = totalProductionKg * selectedCrop.marketPrice; // INR
+
+  // estimate cost per hectare depending on crop category (more realistic defaults)
+  const costPerHectareByCategory: Record<string, number> = {
+    fruits: 60000,
+    vegetables: 40000,
+    grains: 30000,
+    pulses: 35000,
+    default: 30000
+  };
+  const estimatedCost = landArea * (costPerHectareByCategory[selectedCrop.category] ?? costPerHectareByCategory.default);
   const netProfit = totalRevenue - estimatedCost;
 
   return (
@@ -81,7 +93,7 @@ export const CropPredictionResult: React.FC<CropPredictionResultProps> = ({
           </div>
           <div className="text-2xl font-bold text-green-600">₹{selectedCrop.marketPrice}</div>
           <div className="text-sm text-green-700">per kg</div>
-          <div className="text-xs text-green-600 mt-1">Total Revenue: ₹{totalRevenue.toLocaleString()}</div>
+          <div className="text-xs text-green-600 mt-1">Total Revenue: ₹{Math.round(totalRevenue).toLocaleString()}</div>
         </div>
 
         <div className="bg-purple-50 p-4 rounded-lg">
@@ -100,11 +112,11 @@ export const CropPredictionResult: React.FC<CropPredictionResultProps> = ({
             <h4 className="font-semibold text-orange-900">Net Profit</h4>
           </div>
           <div className={`text-2xl font-bold ${netProfit >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-            ₹{Math.abs(netProfit).toLocaleString()}
+            ₹{Math.round(Math.abs(netProfit)).toLocaleString()}
           </div>
           <div className="text-sm text-orange-700">{netProfit >= 0 ? 'Profit' : 'Loss'}</div>
           <div className="text-xs text-orange-600 mt-1">
-            Margin: {((netProfit / totalRevenue) * 100).toFixed(1)}%
+            Margin: {totalRevenue > 0 ? ((netProfit / totalRevenue) * 100).toFixed(1) : '0.0'}%
           </div>
         </div>
       </div>
