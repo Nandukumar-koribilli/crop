@@ -41,7 +41,7 @@ export const cropDatabase: CropType[] = [
     growthDays: 120,
     avgYield: 8,
     marketPrice: 60,
-    image: 'https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://imageafter.com/dbase/images/nature_food/b1mango01.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'grapes',
@@ -67,7 +67,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'low',
     growthDays: 200,
     marketPrice: 120,
-    image: 'https://images.pexels.com/photos/594575/pexels-photo-594575.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://fthmb.tqn.com/o5VvwMoCqHImZj-RYWI67nYigRM=/5130x3420/filters:fill(auto,1)/usa--california--san-benito-county--ripe-pomegranates-on-tree-159237544-594ab22d5f9b58d58a2de6b0.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'papaya',
@@ -80,7 +80,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 300,
     marketPrice: 30,
-    image: 'https://images.pexels.com/photos/594574/pexels-photo-594574.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://images-prod.healthline.com/hlcmsresource/images/AN_images/papaya-benefits-1296x728-feature.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'guava',
@@ -93,7 +93,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 270,
     marketPrice: 50,
-    image: 'https://images.pexels.com/photos/2869566/pexels-photo-2869566.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://tropikalmeyveler.com/wp-content/uploads/2019/03/whole-fresh-guava-fruit-PK5DQQB-1.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'pineapple',
@@ -106,7 +106,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 540,
     marketPrice: 45,
-    image: 'https://images.pexels.com/photos/1306559/pexels-photo-1306559.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://tse3.mm.bing.net/th/id/OIP.sPKg7dX5qRnaDmWRPl68cwHaLH?rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'watermelon',
@@ -146,7 +146,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 200,
     marketPrice: 5,
-    image: 'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://tse3.mm.bing.net/th/id/OIP.RHWHV8wRazXfEZYZxns-HAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'jackfruit',
@@ -159,7 +159,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 365,
     marketPrice: 30,
-    image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://healthyfamilyproject.com/wp-content/uploads/2020/05/Jackfruit-background.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'lychee',
@@ -172,7 +172,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'high',
     growthDays: 180,
     marketPrice: 150,
-    image: 'https://images.pexels.com/photos/92331/pexels-photo-92331.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://www.thespruceeats.com/thmb/6Zv_jaeLj557Xfpu4vczVqAw5jc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-583920053-8afcb3f991144493a3a0c67770d9619d.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'fig',
@@ -185,7 +185,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'low',
     growthDays: 200,
     marketPrice: 200,
-    image: 'https://images.pexels.com/photos/1306559/pexels-photo-1306559.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://minnetonkaorchards.com/wp-content/uploads/2023/03/fig-tree-seeds-2.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'muskmelon',
@@ -198,7 +198,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'high',
     growthDays: 80,
     marketPrice: 40,
-    image: 'https://images.pexels.com/photos/1313267/pexels-photo-1313267.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://static.toiimg.com/photo/78075710.cms?auto=compress&cs=tinysrgb&w=800'
   },
   // Vegetables
   {
@@ -212,7 +212,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 120,
     marketPrice: 25,
-    image: 'https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://wallpapers.com/images/hd/piled-fresh-red-onion-bulbs-m5cynoec4g6dvoip.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'tomato',
@@ -252,7 +252,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 80,
     marketPrice: 40,
-    image: 'https://images.pexels.com/photos/1108199/pexels-photo-1108199.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://tse4.mm.bing.net/th/id/OIP.vpgnS7VtcVwxEP9CQAbKuwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'brinjal',
@@ -265,7 +265,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 110,
     marketPrice: 25,
-    image: 'https://images.pexels.com/photos/1028637/pexels-photo-1028637.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://hearty.com.my/wp-content/uploads/2021/07/brinjal.jpg?q=70?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'cabbage',
@@ -291,7 +291,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 100,
     marketPrice: 25,
-    image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://tse3.mm.bing.net/th/id/OIP.ZcL2dB0mrVQzSZzgQ1NBhwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'spinach',
@@ -317,7 +317,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 60,
     marketPrice: 40,
-    image: 'https://images.pexels.com/photos/4110255/pexels-photo-4110255.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://tse4.mm.bing.net/th/id/OIP.-NHbaSs-yboVqnYXwTkDggHaE8?rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'cucumber',
@@ -356,7 +356,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 45,
     marketPrice: 20,
-    image: 'https://images.pexels.com/photos/1108199/pexels-photo-1108199.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://gardenerspath.com/wp-content/uploads/2023/05/How-to-Grow-Radishes-FB.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'beetroot',
@@ -382,7 +382,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 60,
     marketPrice: 60,
-    image: 'https://images.pexels.com/photos/128420/pexels-photo-128420.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://th.bing.com/th/id/R.c48f9474c3135a33c6005083effd11e7?rik=IZPaE%2f6OsbRT4A&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f80000%2fvelka%2ffresh-greenbeans.jpg&ehk=iostP5pzM1YaMJee2CjIQmQcU9aqtsrNnoLKVcLpQCM%3d&risl=&pid=ImgRaw&r=0?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'pumpkin',
@@ -395,7 +395,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'medium',
     growthDays: 100,
     marketPrice: 20,
-    image: 'https://images.pexels.com/photos/1108199/pexels-photo-1108199.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://tse4.mm.bing.net/th/id/OIP.-06upNMc0ar7Olw1zr5ojQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800'
   },
   // Grains
   {
@@ -423,7 +423,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'high',
     growthDays: 120,
     marketPrice: 28,
-    image: 'https://images.pexels.com/photos/1078359/pexels-photo-1078359.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://english.ahram.org.eg/Media/News/2023/12/5/41_2023-638374065617680784-768.jpg?auto=compress&cs=tinysrgb&w=800'
   },
   // Pulses
   {
@@ -437,7 +437,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'low',
     growthDays: 100,
     marketPrice: 70,
-    image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://tse2.mm.bing.net/th/id/OIP.Zl_NHjTZwx-alRCLnHtyywHaE7?rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'lentil',
@@ -450,7 +450,7 @@ export const cropDatabase: CropType[] = [
     waterRequirement: 'low',
     growthDays: 95,
     marketPrice: 80,
-    image: 'https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: 'https://www.jessicagavin.com/wp-content/uploads/2018/01/cooked-lentils-on-spoon.jpg?auto=compress&cs=tinysrgb&w=800'
   }
 ];
 
