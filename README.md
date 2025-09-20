@@ -119,3 +119,12 @@ Contributions are welcome! If you have suggestions for improving the app, please
 ## 📄 License
 
 This project is open source. It is recommended to add a `LICENSE` file to define the terms under which it is licensed (e.g., MIT License).
+
+
+ ```bash
+     npm install react-router-dom
+
+    
+     pip install --upgrade bcrypt
+
+    ```
